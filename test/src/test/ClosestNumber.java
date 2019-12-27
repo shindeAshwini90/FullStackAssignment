@@ -1,0 +1,25 @@
+package test;
+
+import java.util.Arrays;
+
+public class ClosestNumber {
+
+	public static void main(String[] args) {
+		
+		
+		int arr[]= {-1,5,3,2,4,1};
+		Arrays.sort(arr);
+		System.out.println("Input "+Arrays.toString(arr));
+		int n =arr.length;
+		int[] a= Arrays.copyOfRange(arr, 0, (n+1)/2-1);
+		int[] b= Arrays.copyOfRange(arr, 1, (n+2)/2);
+		int[] c= Arrays.copyOfRange(arr, (n+1)/2-1,n-1);
+		int[] d= Arrays.copyOfRange(arr, (n+1)/2,n);
+		
+		System.out.println(Arrays.toString(a));
+		System.out.println(Arrays.toString(b));
+		System.out.println(Arrays.toString(c));
+		System.out.println(Arrays.toString(d));
+	}
+
+}

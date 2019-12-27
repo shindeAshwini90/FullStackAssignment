@@ -1,0 +1,16 @@
+package test;
+
+import java.util.Scanner;
+
+public class ClosestNumber {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		int arr;
+		System.out.println("Enter Input ");
+		arr = sc.nextInt();
+
+	}
+
+}

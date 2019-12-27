@@ -1,0 +1,5 @@
+package com.yash.repository;
+
+public interface ProjectRepository {
+
+}
